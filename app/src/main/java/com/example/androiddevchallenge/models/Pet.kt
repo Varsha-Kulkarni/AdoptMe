@@ -1,11 +1,9 @@
 package com.example.androiddevchallenge.models
 
-import android.os.Parcelable
 import androidx.annotation.DrawableRes
-import kotlinx.parcelize.Parcelize
+import androidx.compose.runtime.Immutable
 
-
-@Parcelize
+@Immutable
 data class Pet(
     val petId: Int,
     val name: String,
@@ -13,5 +11,6 @@ data class Pet(
     @DrawableRes val imageResource: Int,
     val publisher: String,
     val breed: String,
-    val type: String
-): Parcelable
+    val moreDetails: String
+)
+
