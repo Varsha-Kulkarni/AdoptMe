@@ -7,7 +7,7 @@
 
 ## :scroll: Description
 <!--- Describe your app in one or two sentences -->
-This is a Pet Adoption app built with [Jetpack Compose](https://developer.android.com/jetpack/compose).
+This is a Pet Adoption app UI, built with [Jetpack Compose](https://developer.android.com/jetpack/compose).
 
 ## :bulb: Motivation and Context
 
@@ -15,8 +15,8 @@ Jetpack Compose is Android’s modern toolkit for building native UI. It simplif
 
 ## Features
 ### The app contains an overview screen that displays a list of pets, and a detail screen showing each pet's details.
-These screens use prepoulated dummy data and how to create different custom `Composable` functions.
-- Use `Row` and Column` to arrange the contents of the UI, the style setting.
+These screens use prepoulated dummy data and compose different custom `Composable` functions.
+- Use `Row` and `Column` to arrange the contents of the UI, the style setting.
 - Add `TopAppBar`
 - Use `Material` `Typography` to style the text
 - Use `elevation` to make the Cards stand out from the background
@@ -25,11 +25,12 @@ These screens use prepoulated dummy data and how to create different custom `Com
 - Use `painterResource` to load image drawable resources
 - Use `Layout` to show [VerticalGrid](https://github.com/android/compose-samples/blob/main/Jetsnack/) of two columns
 - Use `Box` with `ScrollState`, simulate [Collapsible Toolbar](https://github.com/android/compose-samples/blob/main/Jetsnack/)
-- Use of `FilterChip` to show filters
+- Use of [`FilterChip`](https://github.com/android/compose-samples/blob/main/Jetsnack/) to show filters
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">
+## :gif: Animated Preview of the App
 <img src="/results/video.gif" width="260">
 
 ### Image Sources
