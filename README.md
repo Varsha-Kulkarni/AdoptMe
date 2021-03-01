@@ -1,27 +1,44 @@
-# Template repository
+# Adopt Me
 
-Template repository for the Jetpack Compose [#AndroidDevChallenge](https://developer.android.com/dev-challenge).
+<!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
+<!--- You can find both of these in the url bar when you open your repository in github. -->
+![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
 
-## Getting started
-Copy this repository by pressing the "Use this template" button in Github.
-Clone your repository and open it in the latest [Android Studio (Canary build)](https://developer.android.com/studio/preview).
 
-## Submission requirements
-- Follow the challenge description on the project website: [developer.android.com/dev-challenge](https://developer.android.com/dev-challenge)
-- All UI should be written using Jetpack Compose
-- The Github Actions workflow should complete successfully
-- Include two screenshots of your submission in the [results](results) folder. The names should be
-  screenshot_1.png and screenshot_2.png.
-- Include a screen record of your submission in the [results](results) folder. The name should be
-  video.mp4
-- Replace the contents of [README.md](README.md) with the contents of [README-template.md](README-template.md) and fill out the template.
+## :scroll: Description
+<!--- Describe your app in one or two sentences -->
+This is a Pet Adoption app built with [Jetpack Compose](https://developer.android.com/jetpack/compose).
 
-## Code formatting
-The CI uses [Spotless](https://github.com/diffplug/spotless) to check if your code is formatted correctly and contains the right licenses.
-Internally, Spotless uses [ktlint](https://github.com/pinterest/ktlint) to check the formatting of your code.
-To set up ktlint correctly with Android Studio, follow one of the [listed setup options](https://github.com/pinterest/ktlint#-with-intellij-idea).
+## :bulb: Motivation and Context
 
-Before committing your code, run `./gradlew app:spotlessApply` to automatically format your code.
+Jetpack Compose is Android’s modern toolkit for building native UI. It simplifies and accelerates UI development on Android. Quickly bring your app to life with less code, powerful tools, and intuitive Kotlin APIs.
+
+## Features
+### The app contains an overview screen that displays a list of pets, and a detail screen showing each pet's details.
+These screens use prepoulated dummy data and how to create different custom `Composable` functions.
+- Use `Row` and Column` to arrange the contents of the UI, the style setting.
+- Add `TopAppBar`
+- Use `Material` `Typography` to style the text
+- Use `elevation` to make the Cards stand out from the background
+- Use Navigation component, with passing arguments to a destination
+- Use `LazyColumn` to show how only visible items are loaded into the list
+- Use `painterResource` to load image drawable resources
+- Use `Layout` to show [VerticalGrid](https://github.com/android/compose-samples/blob/main/Jetsnack/) of two columns
+- Use `Box` with `ScrollState`, simulate [Collapsible Toolbar](https://github.com/android/compose-samples/blob/main/Jetsnack/)
+- Use of `FilterChip` to show filters
+
+## :camera_flash: Screenshots
+<!-- You can add more screenshots here if you like -->
+<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">
+<img src="/results/video.mp4" width="260">
+
+### Image Sources
+- [Afador](https://www.dogtime.com/)
+- [Beaglier](https://puppytoob.com/beaglier/)
+- [Bulldog](https://dogtime.com/dog-breeds/bulldog)
+- [Goldador](https://animalso.com/breeds/goldador/)
+- [Munchkin](https://www.thehappycatsite.com/munchkin-cat/)
+- [Himalayan](https://en.wikipedia.org/wiki/Himalayan_cat#/media/File:Himalayan-sharapova.jpg)
 
 ## License
 ```
