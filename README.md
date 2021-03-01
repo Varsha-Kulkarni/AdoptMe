@@ -21,11 +21,12 @@ These screens use prepoulated dummy data and compose different custom `Composabl
 - Use `Material` `Typography` to style the text
 - Use `elevation` to make the Cards stand out from the background
 - Use Navigation component, with passing arguments to a destination
-- Use `LazyColumn` to show how only visible items are loaded into the list
+- Use `LazyColumn` and `LazyRow` to show how only visible items are loaded into the list
 - Use `painterResource` to load image drawable resources
 - Use `Layout` to show [VerticalGrid](https://github.com/android/compose-samples/blob/main/Jetsnack/) of two columns
 - Use `Box` with `ScrollState`, simulate [Collapsible Toolbar](https://github.com/android/compose-samples/blob/main/Jetsnack/)
 - Use of [`FilterChip`](https://github.com/android/compose-samples/blob/main/Jetsnack/) to show filters
+- Use `CircleShape` to display images
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
