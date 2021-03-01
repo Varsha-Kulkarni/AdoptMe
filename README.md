@@ -2,7 +2,7 @@
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
+![Workflow result](https://github.com/<Varsha-Kulkarni>/<AdoptMe>/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
@@ -30,7 +30,7 @@ These screens use prepoulated dummy data and how to create different custom `Com
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">
-<img src="/results/video.mp4" width="260">
+<img src="/results/video.gif" width="260">
 
 ### Image Sources
 - [Afador](https://www.dogtime.com/)
